@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    background-color: #4fad8f;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile Wrapper */
+#profile-wrapper {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333333;
+    padding: 20px;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #4fad8f;
+}
+
+/* Content Card on the Right */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.card h4, .card h5 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.card p {
+    color: #cccccc;
+}
+
+/* Social Links */
+ul.social-links {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul.social-links li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social {
+    width: 25px;
+    height: 25px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.social:hover {
+    filter: grayscale(0%);
+}
+
+/* Container Adjustments */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.col-md-3 {
+    flex: 1;
+    max-width: 30%;
+}
+
+.col-md-9 {
+    flex: 3;
+    max-width: 65%;
+}
+
+/* Divider */
+hr {
+    border: 1px solid #4fad8f;
+    margin: 15px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    margin-top: 20px;
+}
